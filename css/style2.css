@@ -1,0 +1,9 @@
+/* Fix touch scroll on hero background image */
+.one-third.img {
+  pointer-events: none;
+}
+
+.one-third.img .overlay,
+.one-third.img .overlay-1 {
+  pointer-events: none;
+}
