@@ -7,3 +7,27 @@
 .one-third.img .overlay-1 {
   pointer-events: none;
 }
+
+@media (max-width: 768px) {
+
+.hero {
+    height: auto !important;
+    min-height: 100vh;
+}
+
+.slider-item {
+    height: auto !important;
+}
+
+.home-slider .slider-item .one-third {
+    height: 50vh !important;
+}
+
+.home-slider .slider-item .one-forth {
+    padding: 40px 20px;
+}
+
+}
+.home-slider {
+    touch-action: pan-y;
+}
